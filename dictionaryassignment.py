@@ -3,7 +3,7 @@
 #     'Nile' : 'Egypt',
 #     'Indus' : 'Pakistan',
 #     'Niagara' : 'Canada',
-#     'Amazon' : 'South America'
+#     'Amazon' : 'South America',
 #     'Indus' : 'Pakistan'
 # }
 
@@ -166,11 +166,11 @@
 
 # EX : 10
 
-# dict = {
-#     1: ["Samuel", 21, "Data Structures"],
-#     2: ["Richie", 20, "Machine Learning"],
-#     3: ["Lauren", 21, "OOPS with java"],}
+dict = {
+    1: ["Samuel", 21, "Data Structures"],
+    2: ["Richie", 20, "Machine Learning"],
+    3: ["Lauren", 21, "OOPS with java"],}
 
 
-# for p,o in dict.items():
-#     print(p,o)
+for s,o in dict.items():
+    print(s,o)
